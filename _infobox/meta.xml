@@ -1,0 +1,18 @@
+<meta>
+	<info name="Infobox" author="ber#8813" />
+	<min_mta_version server="1.5.7" client="1.5.7" />
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+	<script src="edit.lua" type="client" />
+	<file src="gfx/success.png" />
+	<file src="gfx/info.png" />
+	<file src="gfx/warning.png" />
+	<file src="gfx/error.png" />
+	<file src="gfx/money.png" />
+	<file src="gfx/exp.png" />
+	<file src="gfx/admin.png" />
+	<file src="sfx/sound.mp3" />
+	<file src="fontes/Roboto.ttf" />
+	<export function="addNotification" type="client" />
+	<export function="addNotification" type="server" />
+</meta>
